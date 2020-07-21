@@ -20,5 +20,6 @@ counter.click();
 console.log(counter.getClick());
 
 function Animal(name, limbs) {
-    
+    this.name = name;
+    this.limbs = limbs;
 }

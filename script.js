@@ -1,12 +1,12 @@
 const createCounter = function(){
     let count = 0;
 
-    return (
+    return {
         click : function(){
             return count += 1;
         },
         getClick: function () {
             return count;
         }
-    )
+  }
 }

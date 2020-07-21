@@ -15,5 +15,6 @@ const counter = createCounter();
 
 counter.click();
 counter.click();
+counter.click();
 
 console.log(counter.getClick());

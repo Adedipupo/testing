@@ -18,3 +18,7 @@ counter.click();
 counter.click();
 
 console.log(counter.getClick());
+
+function Animal(name, limbs) {
+    
+}

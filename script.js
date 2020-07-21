@@ -9,4 +9,8 @@ const createCounter = function(){
             return count;
         }
   }
-}
+};
+
+const counter = createCounter();
+
+counter.click();

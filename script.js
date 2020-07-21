@@ -27,3 +27,5 @@ function Animal(name, limbs) {
 Animal.prototype.move = function() {
     console.log("Currently moving");
 }
+
+Dog.prototype = 

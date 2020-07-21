@@ -3,7 +3,10 @@ const createCounter = function(){
 
     return (
         click : function(){
-
+            return count += 1;
+        },
+        getClick: function () {
+            return count;
         }
     )
 }

@@ -31,3 +31,4 @@ Animal.prototype.move = function() {
 function Dog(name){
     Animal.call(this,name,4);
 }
+Dog.prototype = Object.create(Animal.prototype);

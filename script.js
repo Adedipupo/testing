@@ -1,1 +1,3 @@
-console.log("this is working,mafo");
+const createCounter = function () {
+    let count = 0;
+}

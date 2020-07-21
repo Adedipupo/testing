@@ -41,3 +41,5 @@ Bird.prototype.move = function(){
     console.log("Currently flying");
 }
 
+const puppy = new Dog("Bingo");
+console.log(puppy);

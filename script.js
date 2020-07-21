@@ -28,4 +28,6 @@ Animal.prototype.move = function() {
     console.log("Currently moving");
 }
 
-Dog.prototype = 
+function Dog(name){
+    Animal.call(this,name,4);
+}

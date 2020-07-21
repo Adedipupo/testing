@@ -34,5 +34,5 @@ function Dog(name){
 Dog.prototype = Object.create(Animal.prototype);
 
 function Bird(name){
-    
+    Animal.call(this,name,2);
 }

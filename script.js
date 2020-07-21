@@ -23,3 +23,7 @@ function Animal(name, limbs) {
     this.name = name;
     this.limbs = limbs;
 }
+
+Animal.prototype.move = function() {
+    console.log("Currently moving");
+}

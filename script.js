@@ -36,3 +36,8 @@ Dog.prototype = Object.create(Animal.prototype);
 function Bird(name){
     Animal.call(this,name,2);
 }
+Bird.prototype = Object.create(Animal.prototype);
+Bird.prototype.move = function(){
+    console.log("Currently flying");
+}
+

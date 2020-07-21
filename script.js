@@ -18,5 +18,3 @@ counter.click();
 counter.click();
 
 console.log(counter.getClick());
-console.log(count);
-console.log(counter.count);

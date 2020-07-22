@@ -57,5 +57,7 @@ function Person(first, last, age, gender, interests){
     this.age = age;
     this.gender = gender;
     this.interests = interests;
-
+    this.bio = function(){
+        alert('Hi I\'m ' + this.name.first + ' ' + this.name.last + )
+    }
 }

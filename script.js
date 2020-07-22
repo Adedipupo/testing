@@ -54,4 +54,6 @@ function Person(first, last, age, gender, interests){
         first : first,
         last : last
     };
+    this.age = age;
+    this.gender = gender;
 }

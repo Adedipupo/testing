@@ -48,3 +48,7 @@ puppy.move();
 const chick = new Bird("Falcon");
 console.log(chick);
 chick.move();
+
+function Person(first, last, age, gender, interests){
+    
+}

@@ -64,3 +64,5 @@ function Person(first, last, age, gender, interests){
         alert('Hi I\'m ' + this.name.first + '.');
     }
 }
+
+let person1 = new Person('Dipo', 'Otunba', 41, 'male', ['game','movie']);

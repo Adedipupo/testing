@@ -60,4 +60,7 @@ function Person(first, last, age, gender, interests){
     this.bio = function(){
         alert('Hi I\'m ' + this.name.first + ' ' + this.name.last + ' is ' + this.age + 'years old. He likes ' + this.interests[0] + this.interests[1]);
     }
+    this.greeting = function(){
+        alert('Hi I\'m ' + this.name.first + '.');
+    }
 }

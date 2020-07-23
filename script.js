@@ -78,4 +78,8 @@ class Rectangle {
         this.height = height,
         this.width = width
     }
+
+    calculateArea(){
+        return this.height * this.width;
+    }
 }

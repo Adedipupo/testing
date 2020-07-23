@@ -68,4 +68,10 @@ function Person(first, last, age, gender, interests){
 let person1 = new Person('Dipo', 'Otunba', 41, 'male', ['game','movie']);
 person1['age']
 person1.interests[1]
-person1.bio()
+// person1.bio()
+// person1.greeting()
+
+
+class Rectangle {
+    
+}

@@ -79,9 +79,13 @@ class Rectangle {
         this.width = width
     }
 
+    get Area(){
+        return this.calculateArea();
+    }
+
     calculateArea(){
         return this.height * this.width;
     }
 }
-    const rect1 = new Rectangle(10,12);
-    console.log(rect1.calculateArea());
+    const rect1 = new Rectangle(11,12);
+    console.log(rect1.Area);

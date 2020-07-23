@@ -73,5 +73,8 @@ person1.interests[1]
 
 
 class Rectangle {
-    
+
+    constructor(height, width){
+        
+    }
 }
